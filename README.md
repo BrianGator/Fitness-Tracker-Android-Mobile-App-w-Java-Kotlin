@@ -34,19 +34,27 @@ A mobile-friendly web application designed to track daily physical activity and 
 4. **Analysis**: Click the arrow to proceed to the Calculation screen. Enter your weight and age to generate your final calorie burn and net balance.
 5. **Persistent History**: Use "Log Day" to save your results. Click the history icon (top right) at any time to review your progress.
 
-## Native Mobile Source
-In addition to the web application, this project includes source code for native Android development located in the `/mobile` directory:
+## Native Mobile Development
+This project provides both a high-fidelity **PWA (Progressive Web App)** and **Native Android Source Code**. 
 
-- **Java Implementation**: Located in `/mobile/java/` (MainActivity.java, CaloriesActivity.java).
-- **Kotlin Implementation**: Located in `/mobile/kotlin/` (MainActivity.kt, CaloriesActivity.kt).
+**Note on APK/IPA files:** As an AI assistant, I generate source code and web environments. I cannot provide compiled binary files (like `.apk` or `.ipa`) directly for download. However, you can use the provided source code to build them yourself.
 
-### Building Native Apps
-To create a native APK or IPA:
-1. **Android**: Create a new project in Android Studio and import the Java or Kotlin files. Use the logic in `calculateCalories()` to mirror the web app's accuracy.
-2. **iOS**: While this project provides Android source, the logic can be ported to Swift for iOS development by following the MET conversion calculations provided in the source files.
+### Android Native Source (Java & Kotlin)
+Located in the `/mobile` directory:
+- **Java**: `/mobile/java/`
+- **Kotlin**: `/mobile/kotlin/`
 
-## Mobile Installation (How to get the "App" on your phone)
-Since this is a Progressive Web App (PWA), you can install it without an App Store:
+To build your own APK:
+1. Open **Android Studio**.
+2. Create a new "Empty Activity" project.
+3. Replace the system-generated files with the provided Java or Kotlin source code.
+4. Build and Run on your device or emulator.
+
+### iOS Development
+The calculation logic in `CaloriesActivity` can be directly ported to **Swift** for iOS. Use the same MET values used in `calculateCalories()` to ensure consistency across platforms.
+
+## Mobile Installation (PWA)
+The easiest way to use this as an app is the "Add to Home Screen" feature:
 
 ### For Android (Chrome)
 1. Open the **App URL** in Chrome.
