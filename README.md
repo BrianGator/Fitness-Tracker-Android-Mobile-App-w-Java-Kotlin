@@ -4,8 +4,9 @@
 A mobile-friendly web application designed to track daily physical activity and calculate calories burned based on user-specific metrics.
 
 ## Languages and Technologies
-- **TypeScript**: For robust, type-safe logic.
-- **React**: For building the component-based user interface.
+- **TypeScript & React**: Primary web application stack.
+- **Java**: Native Android source code implementation.
+- **Kotlin**: Modern Native Android source code implementation.
 - **Tailwind CSS**: For high-performance, utility-first styling.
 - **Motion (Framer Motion)**: For smooth, mobile-native screen transitions and animations.
 - **Lucide React**: For modern, consistent iconography.
