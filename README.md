@@ -33,6 +33,17 @@ A mobile-friendly web application designed to track daily physical activity and 
 4. **Analysis**: Click the arrow to proceed to the Calculation screen. Enter your weight and age to generate your final calorie burn and net balance.
 5. **Persistent History**: Use "Log Day" to save your results. Click the history icon (top right) at any time to review your progress.
 
+## Native Mobile Source
+In addition to the web application, this project includes source code for native Android development located in the `/mobile` directory:
+
+- **Java Implementation**: Located in `/mobile/java/` (MainActivity.java, CaloriesActivity.java).
+- **Kotlin Implementation**: Located in `/mobile/kotlin/` (MainActivity.kt, CaloriesActivity.kt).
+
+### Building Native Apps
+To create a native APK or IPA:
+1. **Android**: Create a new project in Android Studio and import the Java or Kotlin files. Use the logic in `calculateCalories()` to mirror the web app's accuracy.
+2. **iOS**: While this project provides Android source, the logic can be ported to Swift for iOS development by following the MET conversion calculations provided in the source files.
+
 ## Mobile Installation (How to get the "App" on your phone)
 Since this is a Progressive Web App (PWA), you can install it without an App Store:
 
