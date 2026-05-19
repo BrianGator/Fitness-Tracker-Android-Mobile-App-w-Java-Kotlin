@@ -1,0 +1,8 @@
+{
+  "name": "Daily Fitness Tracker Android Mobile App",
+  "description": "A mobile-inspired fitness tracker to calculate calories burned based on steps, weight, and age.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
